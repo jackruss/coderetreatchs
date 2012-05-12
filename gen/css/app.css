@@ -1,0 +1,45 @@
+/* Body and structure
+-------------------------------------------------- */
+body {
+  position: relative;
+  padding-top: 90px;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  background-position: 0 40px;
+}
+
+h2,h3 {
+  font-family: 'IM Fell English SC', serif;
+  color: rgba(0,0,0,.6);
+}
+
+h1 {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 4em;
+  color: rgba(0,0,0,.8);
+}
+
+.hero-unit p, section ul li {
+  color: rgba(0,0,0,.7);
+  font-size: 2em;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  
+  .hero-unit p, section ul li {
+    color: rgba(0,0,0,.7);
+    font-size: .8em;
+    line-height: 20px;
+  }
+  
+  .hero-unit {
+    padding: 10px;
+  }
+  
+}
